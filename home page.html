@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="itr">
+    <head>
+        <meta charset="utf-8">
+        <title>Crazy-Computer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheer" href="https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&diplay=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" type="image/x-icon" href="img/erqhebrhufv.png">
+    </head>
+    <body>
+        <nav>
+            <labe class="logo">Home</label>
+            <ul>
+                <li><a href="z home.html"><a href="z home.html">Home</a></a></li>
+                <li><a href="z downloads.html"><a href="z downloads.html"> Downloads</a></a></li>
+                <li><a href="z team.html"><a href="z team.html"> Our team</a></a></li>
+                <li><a href="z tutorials.html"><a href="z tutorials.html"> Tutorials</a></a></li>
+                
+                <style>
+                    *{
+                        padding: 0;
+                        margin: 0;
+                        text-decoration: none;
+                        list-style: none;
+                        box-sizing: border-box;
+                    }
+                    body{
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    nav{
+                        background: #0082e6;
+                        height: 80px;
+                        width: 100%;
+                    }
+                    label.logo{
+                        color: white;
+                        font-size: 40px;
+                        line-height: 80px;
+                        padding: 0 100px;
+                        font-weight: bolder;
+                    }
+                    nav ul{
+                        float: right;
+                        margin-right: 20px;
+                    }
+                    nav ul li{
+                        display: inline-block;
+                        line-height: 80px;
+                        margin: 0 5px;
+
+                    }
+                    nav ul li a{
+                        color: white;
+                        font-size: 17px;
+                        padding: 7px 13px;
+                        text-transform: uppercase;
+                        border-radius: 3px;
+                    }
+                    a.active,a:hover{
+                        background: #1b9bff;
+                        transition: .5s;
+                    }
+                </style>
+            </ul>
+        </nav>
+        <body style="background-color: rgb(154, 158, 158);"></body>
+    </body>
+</html>
+
+<body>
+    <style>
+        body, html {
+          height: 100%;
+          margin:  0px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .hero-image {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pexels-vlad-alexandru-popa-1402787.jpg");
+          height: 50%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        
+        .hero-text {
+          text-align: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+        }
+        
+        .hero-text button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 10px 25px;
+          color: black;
+          background-color: #ddd;
+          text-align: center;
+          cursor: pointer;
+        }
+        
+        .hero-text button:hover {
+          background-color: #555;
+          color: white;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1 style="font-size:500%">Home</h1>
+            <p style="font-family: monospace;">Authured by Crazy-Computer</p>
+          </div>
+        </div>
+        </body>
+        </html>
+
+        <h1 style="text-align: center;"><span style="font-family: monospace;">Who we are?</span></h1>
+
+        <body>
+            <body>
+                <!-- Advanced Grid -->
+                <div class="container">
+                    <div class="box box1" style="font-weight: 1000;">Long time graphic designers</div>
+                    <div class="box box2" style="font-weight: 1000;">Basic learning web developers</div>
+                    <div class="box box3"style="font-weight: 1000;">Professional Youtubers</div>
+                    <div class="box box4"style="font-weight: 1000;">Many more in the future</div>
+                </div>
+
+                <style>
+                    /* Basic Styling */
+.container > div{
+    background: #ee3ad6;
+    padding: 10px;
+}
+
+.container > div:nth-child(odd){
+    background: #7255f5;
+}
+
+/* Grid Layout */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.box1{
+    /* justify-self: start; */
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.box2{
+    /* align-self: end; */
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.box3{
+    /* justify-self: end;
+    align-self: end; */
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.box4{
+    /* justify-self: end;
+    align-self: center; */
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+
+</style>
+
+<fieldset style="background-color: rgb(43, 141, 136);">
+<h1 style="text-align: center;"><span style="color: beige;">Carousel</span></h1>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/keyboard-computer-keyboard-electronics-computer.jpg" alt="Crazy-Computer" class="center" style="width:50%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/microsoft-microsoft-windows-windows-10-wooden-surface-wallpaper-preview.jpg" alt="Crazy-Computer" class="center" style="width:50%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/nvidia-brand-logo-pc-wallpaper-preview.jpg" alt="Crazy-Computer" class="center" style="width:50%">
+      <style>
+        .center {
+                   display: block;
+                   margin-left: auto;
+                   margin-right: auto;
+                   width: 100%;
+                   
+        }
+
+      </style>
+    </div>
+  </div>
+  
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</body>
+
+</html>
+
+</fieldset>
+<body>
+  
+    <h1 style="text-align: center;">Some Famous channels to subscribe!</h1>
+
+   <li><a href="https://youtu.be/WvSufZmuRq4" style="font-size: 25px;" target="_blank" class="btn">CrazyComputer</a></li>
+   <li><a href="https://www.youtube.com/channel/UCt7d1kdrD9obrL4GQ7ZO9AQ" style="font-size: 25px;" target="_blank" class="btn">Gaming With Sl Iyan</a></li>
+   <li><a href="https://www.youtube.com/c/ThripleBee13" style="font-size: 25px;" target="_blank" class="btn">Thriplebee</a></li>
+   <li><a href="https://www.youtube.com/channel/UCokAKkvn0ikMNPT-gUQ-uDA" style="font-size: 25px;" target="_blank" class="btn">Covers by Hiruna</a></li>
+   <li><a href="https://www.youtube.com/c/SandrewWhitlly" target="_blank" style="font-size: 25px;" class="btn">Sandrew Whitly</a></li>
+   <li><a href="https://www.youtube.com/channel/UCOO-LI0vBHvQx1weKqbU4YQ" style="font-size: 25px;" target="_blank" class="btn">Legion By Samsung</a></li>
+  
+</body>
+
+<body>
+    <fieldset id="roshitha" style="background-color: rgb(43, 141, 136);">
+        <h1 style="text-align: center;">The End</h1>
+        <button><a href="zboutus.html" style="color: black;">Blog Page</a></button>
+        <style>
+            fieldset{
+                display: block;
+                margin: 6px;
+                page-break-after: initial;
+                background-image: url(img/sean-sinclair-0Y6BaIZeh0g-unsplash.jpg);
+            }
+            button{
+                display: flex;
+                background: #7d7f86;
+                font-size: x-large;
+                font-weight: lighter;
+                margin: 10px;
+            }
+
+        </style>
+    </fieldset>
+</body>
+
+
+
